@@ -8,12 +8,12 @@
   <h1>Tic‑Tac‑Toe Scoreboard</h1>
   <ul id="scores"></ul>
 
-  <!-- Intentionally outdated jQuery (3.4.1) vulnerable to CVE‑2020‑11022 -->
-  <script src="/js/jquery-3.4.1.min.js"></script>
+  <!-- Intentionally outdated jQuery (3.7.1) vulnerable to CVE‑2020‑11022 -->
+  <script src="/js/jquery-3.7.1.min.js"></script>
   <script>
     // The name is inserted without escaping – classic reflected XSS
     const player = { name: "<%= playerName %>" };
-    $('#scores').html('<li>' + player.name + '</li>');
+    $('#scores').text(player.name);
   </script>
 </body>
 </html>

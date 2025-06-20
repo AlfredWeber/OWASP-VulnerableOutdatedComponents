@@ -7,9 +7,7 @@ const router = express.Router();
  * DO NOT USE IN PRODUCTION.
  */
 router.post('/message', (req, res) => {
-  const tpl = _.template('<%= msg %>');
-  const rendered = tpl({ msg: req.body.msg }); // User‑controlled input
-  res.send(rendered);
+  res.type('text').send(_.escape(req.body.msg));
 });
 
 module.exports = router;
