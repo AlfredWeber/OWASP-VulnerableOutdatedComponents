@@ -1,0 +1,23 @@
+{
+  "name": "tic-tac-toe-vuln",
+  "version": "1.0.0",
+  "description": "Demo app for OWASP Top 10 A06 - Vulnerable & Outdated Components",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "lodash": "4.17.20"
+  },
+  "keywords": [
+    "OWASP",
+    "A06",
+    "demo",
+    "vulnerable"
+  ],
+  "author": "",
+  "license": "MIT"
+}
