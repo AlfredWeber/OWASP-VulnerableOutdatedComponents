@@ -1,3 +1,7 @@
+# Awareness-Schulung Video:
+
+https://ai.invideo.io/watch/peIl5dTNYqV
+
 # Tic‑Tac‑Toe Vulnerable Demo
 
 This intentionally vulnerable Node.js app demonstrates **OWASP Top 10 – A06: Vulnerable & Outdated Components**. It uses:
